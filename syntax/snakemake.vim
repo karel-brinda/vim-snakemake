@@ -43,7 +43,7 @@ runtime! syntax/python.vim
 
 syn keyword pythonStatement	include workdir onsuccess onerror
 syn keyword pythonStatement	ruleorder localrules configfile
-syn keyword pythonStatement	touch protected temp wrapper
+syn keyword pythonStatement	touch protected temp wrapper shadow conda
 syn keyword pythonStatement	input output params message threads resources
 syn keyword pythonStatement	version run shell benchmark snakefile log script group
 syn keyword pythonStatement	wildcard_constraints
